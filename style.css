@@ -12,6 +12,7 @@ body {
     gap: 2rem;
     background-color: #f1f1f1;
     height: 100vh;
+    overflow: hidden;
 }
 
 h1 {
