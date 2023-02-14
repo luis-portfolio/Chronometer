@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    font-size: 70px;
+    text-shadow: 0px 0px 2px black;
+    margin: -15px 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #333;
+}
+
+div:last-child {
+    gap: 2rem;
+}
+
+div>span,
+div>b {
+    font-size: 55px;
+    font-weight: bold;
+    color: #172953;
+    text-shadow: 1px 1px 2px #00000040;
+}
+
+div>span {
+    margin-top: -10px;
+    width: 90px;
+}
+
+div>b {
+    color: #525763;
+    margin-top: -15px;
+}
+
+div>span:last-child {
+    font-size: 30px;
+    color: #525763;
+    margin-top: -9px;
+    width: 75px;
+}
+
+div>button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #00000049;
+    text-shadow: 1px 1px 2px #ffffff75;
+    box-shadow: inset 0px 0px 7px 3px #00000075;
+    transition: all 0.2s ease-in-out;
+}
+
+div>button:hover {
+    border: 1px solid #ffffff75;
+    text-shadow: 1px 1px 3px #00000075;
+    box-shadow: inset 0px 0px 7px 3px #ffffff75;
+    transform: scale(1.1);
+}
+
+div>button:nth-child(1) {
+    background-color: #175cff;
+    color: #fff;
+}
+
+div>button:nth-child(2) {
+    display: none;
+    background-color: #b7750c;
+    color: #fff;
+}
+
+div>button:nth-child(3) {
+    display: none;
+    background-color: #138206;
+    color: #fff;
+}
+
+div>button:nth-child(4) {
+    background-color: #ff1717b3;
+    color: #fff;
+}
